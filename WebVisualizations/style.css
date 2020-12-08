@@ -1,0 +1,29 @@
+h1 {
+	color: white;
+	background-color: lightseagreen;
+	padding: 10px;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+.nav {
+	color: lightseagreen;
+	background-color: white;
+}
+
+.row {
+	background-color: lightgrey;
+	padding: 1px;
+}
+
+.col-md-8 {
+	background-color: white;
+	padding: 20px;
+}
+
+.col-md-4 {
+	background-color: white;
+	padding: 20px;
+}
