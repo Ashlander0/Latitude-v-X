@@ -1,33 +1,43 @@
-h1 {
-	color: lightseagreen;
-	padding: 5px;
-	font-size: 12px;
-	position: fixed;
+
+.navbar {
+	background-color: white;
+	height: 52px;
 }
-h2 {
+
+.homepage {
+	display: inline-block;
+	background-color: lightseagreen;
+	color: white;
+	padding: 5px;
+	font-size: 28px;
+	position: fixed;
+	left: 10px;
+	top: 0px;
+}
+
+.controls {
+	display: inline-block;
 	color: lightseagreen;
+	border-radius: 4px;
+	padding: 5px;
+	text-align: center;
+}
+
+.navcontrol {
+	position: fixed;
+	right: 10px;
+	top: 8px;
+}
+
+a {
+	color: lightseagreen;
+}
+
+.plots {
+	color: lightseagreen;
+	border-color: white;
 }
 
 body {
-	background-color: lightgrey;
-}
-
-.navbar {
-	color: lightseagreen;
-	background-color: white;
-	text-align: right;
-	padding: 10px;
-}
-
-.col-md-8 {
-	background-color: white;
-	padding: 20px;
-}
-
-.col-md-4 {
-	background-color: white;
-}
-
-.col-md-2 {
-	background-color: white;
+	background-color: lightgray;
 }
