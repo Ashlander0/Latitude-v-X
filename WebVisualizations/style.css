@@ -90,3 +90,9 @@ p {
 .chart {
 	float: left;
 }
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
