@@ -12,12 +12,12 @@
 	<a href="../index.html" class="homepage">Latitude</a>
 	<nav class="navcontrol">
 		<ul>
-			<select class="controls plots">
+			<select class="controls plots" onchange="location = this.value;">
 				<option selected disabled>Plots</option>
-				<option value="cloud">Cloudiness</option>
-				<option value="humid">Humidity</option>
-				<option value="temp">Temperature</option>
-				<option value="wind">Wind</option>
+				<option value="cloud.html">Cloudiness</option>
+				<option value="humidity.html">Humidity</option>
+				<option value="temp.html">Temperature</option>
+				<option value="wind.html">Wind Speed</option>
 			</select>
 			<li class="controls">
 				<a href='comparisons.html'>Comparisons</a>
@@ -30,7 +30,16 @@
 </div>
 
 <body>
-
+<div class='container'>
+	<div class='row'>
+		<div class='col-md-12 content'>
+			<h1>Temperature</h1>
+			<hr>
+			<img class='chart' src='Resources/assets/images/Fig1.png' width='500'></img>
+			<p>As you can see here, there is a very strong correlation between temperature and latitude, with the highest temperatures occuring near the equater. The temperatures seem to drop at a similar rates as they get further from the equater. You might notice that the data points in the southern hemisphere seem to drop off, while the northern hemisphere stretches across more latitudes. This may be because the lower latitudes are primarily ocean, so have fewer cities.</p>
+		</div>
+	</div>
+</div>
 
 
 </body>
