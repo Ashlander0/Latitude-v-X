@@ -1,7 +1,7 @@
 
 .navbar {
 	background-color: white;
-	height: 52px;
+	height: 57px;
 }
 
 .homepage {
@@ -9,7 +9,7 @@
 	background-color: lightseagreen;
 	color: white;
 	padding: 5px;
-	font-size: 28px;
+	font-size: 32px;
 	position: fixed;
 	left: 10px;
 	top: 0px;
@@ -40,4 +40,30 @@ a {
 
 body {
 	background-color: lightgray;
+}
+
+.content {
+	background-color: white;
+	padding: 20px;
+	margin: 5px;
+}
+
+h1 {
+	color: lightseagreen;
+	font-size: 32px;
+}
+
+.intro {
+	float: left;
+	width: 225px;
+}
+
+p {
+	color: grey;
+	font-size: 14px;
+}
+.col-md-4 {
+	justify-items: center;
+	width: 500px
+	;
 }
