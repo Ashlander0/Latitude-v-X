@@ -12,12 +12,12 @@
 	<a href="../index.html" class="homepage">Latitude</a>
 	<nav class="navcontrol">
 		<ul>
-			<select class="controls plots">
+			<select class="controls plots" onchange="location = this.value;">
 				<option selected disabled>Plots</option>
-				<option value="cloud">Cloudiness</option>
-				<option value="humid">Humidity</option>
-				<option value="temp">Temperature</option>
-				<option value="wind">Wind</option>
+				<option value="cloud.html">Cloudiness</option>
+				<option value="humidity.html">Humidity</option>
+				<option value="temp.html">Temperature</option>
+				<option value="wind.html">Wind Speed</option>
 			</select>
 			<li class="controls">
 				<a href='comparisons.html'>Comparisons</a>
@@ -30,7 +30,36 @@
 </div>
 
 <body>
-
+<div class='container content'>
+	<div class='row'>
+		<div class='col-md-12'>
+			<h1>Comparison: Latitude vs X</h1>
+			<hr>
+			<p>Click any plot to get an in-depth analysis.</p>
+		</div>
+		<div class='col-md-6'>
+			<div class='compplot'>
+				<h2>vs. Temperature</h2>
+				<a href='temp.html'><img src='Resources/assets/images/Fig1.png' width='300' alt='Temperature'></img></a>
+			</div>	
+				
+			<div class='compplot'>
+				<h2>vs. Cloudiness</h2>
+				<a href='cloud.html'><img src='Resources/assets/images/Fig3.png' width='300' alt='Cloudiness'></img></a>
+			</div>
+		</div>
+		<div class='col-md-6'>
+			<div class='compplot'>
+				<h2>vs. Humidity</h2>
+				<a href='humidity.html'><img src='Resources/assets/images/Fig2.png' width='300' alt='Humidity'></img></a>
+			</div>	
+			<div class='compplot'>
+				<h2>vs. Wind Speed</h2>
+				<a href='wind.html'><img src='Resources/assets/images/Fig4.png' width='300' alt='Wind Speed'></img></a>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 </body>
